@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_ST45s" Id="{a144d5fd-2508-420c-93a0-7793307d38a4}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_ST45s
+VAR
+	_camera : BOOL;
+	_sensor	: BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <LineIds Name="FB_ST45s">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
