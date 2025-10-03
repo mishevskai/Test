@@ -23,6 +23,9 @@
     <Compile Include="POUs\FB_Camera.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\FB_ScannerImplementation.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\FB_ST45s.TcPOU">
       <SubType>Code</SubType>
     </Compile>
