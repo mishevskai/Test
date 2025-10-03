@@ -4,7 +4,7 @@
     <Declaration><![CDATA[FUNCTION_BLOCK FB_ScannerImplementation
 VAR
 	_Keyence : BOOL;
-	_scannerCognex : TRUE;
+	_scannerCognex : BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
