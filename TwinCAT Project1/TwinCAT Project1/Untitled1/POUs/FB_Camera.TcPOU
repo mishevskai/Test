@@ -9,8 +9,21 @@ END_VAR
     <Implementation>
       <ST><![CDATA[]]></ST>
     </Implementation>
+    <Method Name="_scanner" Id="{035e3899-2798-4c63-a1c6-9bb0ead59095}">
+      <Declaration><![CDATA[METHOD PROTECTED _scanner
+VAR_INPUT
+	_scanner : BOOL;
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
     <LineIds Name="FB_Camera">
       <LineId Id="9" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_Camera._scanner">
+      <LineId Id="5" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
