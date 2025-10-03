@@ -4,10 +4,11 @@
     <Declaration><![CDATA[FUNCTION_BLOCK FB_ScannerImplementation
 VAR
 	_Keyence : BOOL;
+	_scannerCognex : TRUE;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[_Keyence:= TRUE;]]></ST>
     </Implementation>
     <LineIds Name="FB_ScannerImplementation">
       <LineId Id="9" Count="0" />
