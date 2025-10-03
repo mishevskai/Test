@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_ScannerImplementation" Id="{bbe3db64-5932-4d33-8d44-3c0350c6f67c}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_ScannerImplementation
+VAR
+	_Keyence : BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <LineIds Name="FB_ScannerImplementation">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
